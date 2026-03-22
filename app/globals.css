@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background: theme(colors.bg);
+  color: theme(colors.ink);
+}
+
+/* Subtle iPhone-like safe area padding */
+.safe-pad {
+  padding-bottom: env(safe-area-inset-bottom);
+}
